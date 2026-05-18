@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Anna Au"
+  },
+  "text": {
+    "more": "This is the knowledge graph of the scoping review of my Ph.D. thesis - The Pubic Health Value of The Public Library. The scoping review includes 790 entries of 621 unique articles, covering the dimensions where public health and public libraries intersect:\nHealth\nPhysical health\nSocial well-being\nSocial infrastructure\nMental health\nLearning and education\nScience engagement\nSustainability\nUrbanism\nEvidence-based design",
+    "intro": "Knowledge graph of the scoping review for Anna Au\u0027s Ph.D. thesis - The Public Health Value of The Public Library",
+    "title": "Scoping review for \"The Public Health Value of The Public Library\""
+  },
+  "legend": {
+    "edgeLabel": "Includes",
+    "colorLabel": "Amount of included articles",
+    "nodeLabel": "Topic"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Label",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
